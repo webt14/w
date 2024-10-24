@@ -39,6 +39,8 @@ value="description"></td></tr>
 </center>
 </body>
 </html>
+
+  
 Slip 2: Create HTML5 page with following specifications
 i) Title should be about your City.
 ii) Color the background by Pink color.
@@ -58,10 +60,12 @@ Solution:
 </ul>
 <img src="https://mittalbuilders.com/wp-content/uploads/2020/12/Reasons-to-
 settle-down-in-Pune.png" width="200" height="200" align="bottom">
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 </body>
 </head>
 </html>
+
+
+
 Slip 3:
 Write a program using html with following CSS specifications-
 i. The background colour of the company name should be in green.
@@ -88,13 +92,16 @@ growth
 through high-profile acquisitions like that of ad agency Droga5. With 721,000 people
 worldwide</p>
 </html>
+
+
+  
 Slip4: Write a HTML code, which generate the following output
 List of Books
 Item No Item Name Price
 Rs. Paise
 1 Programming in Python 500 50
 2 Programming in Java 345 00
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
+
 <html>
 <body>
 <table border = 1>
@@ -120,10 +127,13 @@ MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 <td>345</td><td>00</td>
 </tr>
 </body>
+
+
 </html>
 Slip5: Create following Bootstrap Web Layout Design and change Title, add your
 personal information, educational information, job profile.
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
+
+
 <html lang="en">
 <head>
 <title>NR Class</title>
@@ -149,12 +159,13 @@ MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 </div>
 </div>
 </body>
+
+
 </html>
 Slip 6: Create following Bootstrap Web Layout Design and set Header background color
 Blue, add your College name, set Menu section background color green create menu About
 Us, In content section add college information, background color yellow, Footer section
 backgroundcolor red, add address of college.
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 <html>
 <head>
 <link rel="stylesheet" href="bootstrap.min.css">
@@ -181,6 +192,8 @@ MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 </div>
 </body>
 </html>
+
+
 Slip7 Design HTML 5 Page Using CSS Which Displays the following Navigation Bar
 <html>
 <head>
@@ -193,7 +206,6 @@ display:inline;
 </head>
 <body style="font-size:40px">
 <ul>
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 <li><a href="HOME.asp" style="color:white; background-
 color:grey;">HOME</a></li>
 <li> <a href="JAVA.asp" style="color:blue; background-
@@ -205,6 +217,8 @@ color:#D3D3D3;">CSS</a></li>
 </ul>
 </body>
 </html>
+
+
 Slip8: Design an HTML form to accept two strings from the user. Write a PHP script for
 thefollowing.
 a. Find whether the small string appears at the start of the large string.
@@ -236,7 +250,6 @@ echo"the small string appears at the start of the large string<br>";
 else
 {
 echo"small string does not appear at the start of the large string<br>";
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 }
 $pos=strpos($a,$b);
 echo"the small string appears at $pos position<br>";
@@ -246,7 +259,9 @@ else if(strcasecmp($a,$b)>0)
 echo "first string bigger<br>";
 else
 echo "second string is bigger<br>";
-?>
+?
+
+
 Slip9: Write a PHP script for the following: Design a form having a text box and a drop
 down listcontaining any 3 separators(e.g. #, |, %, @, ! or comma) accept a strings from the
 user and also aseparator.
@@ -277,7 +292,6 @@ PHP FILE
 $str=$_GET['str1'];
 $sep=$_GET['sep'];
 $op=$_GET['op'];
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 //echo "$str $sep $op";
 switch($op)
 {
@@ -298,6 +312,9 @@ echo "This is the last word : ".$ar[$cnt-1];
 break;
 }
 ?>
+
+
+
 Slip10: Write a script to accept two integers(Use html form having 2
 textboxes).Write a PHP script to,
 a. Find mod of the two numbers.
@@ -317,7 +334,6 @@ Enter Two Numbers<br>
 <input type="text" name="n2"><br><br>
 Select An Operation<br>
 <input type="radio" name="op" value="mod">Mod Of The Two Numbers<br><br>
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 <input type="radio" name="op" value="power">Power Of The First Number Raised
 To The Second<br><br>
 <input type="radio" name="op" value="sum">The Sum Of First n Numbers<br><br>
@@ -361,7 +377,6 @@ $n3=1;
 for($i=1;$i<=$n2;$i++)
 {
 $n3=$n3*$i;
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 }
 return $n3;
 }
@@ -381,6 +396,8 @@ echo"Factorial of $n2 is $result.";
 break;
 }
 ?>
+
+
 Slip11: Create a button with different style (Secondary, Primary, Success, Error, Info,
 Warning, Danger) using BootStrap.
 <html>
@@ -397,6 +414,8 @@ Warning, Danger) using BootStrap.
 <input type= button value="danger" class="btn btn-danger">
 </body>
 </html>
+
+  
 Slip12: Write a PHP script for the following: Design a form to accept two numbers from the
 user. Give options to choose the arithmetic operation (use radio buttons). Display the result
 on the nextform. (Use the concept of function and default parameters. Use ‘include’ construct
@@ -445,8 +464,9 @@ PHP FILE
 <?php
 include'slip12.php';
 ?>
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
-Slip13: Write a PHP script to create a chess board using CSS on table cells.
+
+  
+  Slip13: Write a PHP script to create a chess board using CSS on table cells.
 <html>
 <head>
 <head><title>NRC ChessBoard</title>
@@ -489,13 +509,14 @@ echo"<td class=clr1></td>";
 else
 echo"<td class=clr2></td>";
 }
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 }
 echo "</tr>";
 }
 echo"</table>" ;
 ?>
 </html>
+
+  
 Slip14: Create a container add row inside it and add 3 columns inside row using BootStrap.
 <html>
 <head>
@@ -514,6 +535,8 @@ Slip14: Create a container add row inside it and add 3 columns inside row using 
 </div>
 </body>
 </html>
+
+
 Slip15: Design a form to accept string from the user and perform the following operations
 a. To select first 5 words from the string
 b. Convert the given string to lowercase and then to Title case.
@@ -529,7 +552,6 @@ Enter a String<input type=text name=t1><br>
 <input type=radio name=op value=2>LowerCase<br>
 <input type=radio name=op value=3>Padding<br>
 <input type=radio name=op value=4>Remove Spaces<br>
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 <input type=radio name=op value=5>Reverse<br><br>
 <input type=submit value=submit>
 </form>
@@ -568,7 +590,8 @@ $str=strrev($str);
 echo $str;
 }
 ?>
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
+
+
 Slip16: Write a PHP script for the following: Design a form to accept the marks of 5
 different subjects of a student, having serial number, subject name & marks out of 100.
 Display theresult in the tabular format which will have total, percentage and grade. Use only
@@ -611,7 +634,8 @@ echo "<tr><td>Total marks </td><td>$sum</td>";
 echo"<tr><td>Percentage</td><td>$result</td></tr>";
 echo "</center>"
 ?>
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
+
+
 Slip17: Write a PHP script to sort the following associative array :
 array(“Sagar"=>"31","Vicky"=>"41","Leena"=>"39","Ramesh"=>"40") in
 a) ascending order sort by Value
@@ -633,6 +657,8 @@ echo "sorting in decending order by key<br>";
 krsort($a);
 print_r($a);
 ?>
+
+
 Slip18: Write a menu driven program to perform the following operations on an associative
 array
 a. Reverse the order of each element’s key-value pair.
@@ -653,7 +679,6 @@ HTML FILE
 key.</br></br>
 <input type=submit value=send>
 </body>
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 </html>
 PHP FILE
 <?php
@@ -695,11 +720,13 @@ default:
 echo "Invalid choice!!";
 }
 ?>
+
+
+  
 Slip19: Write a PHP script to accept 2 strings from the user, the first string should be a
 sentence andsecond can be a word.
 a. Delete a small part from first string after accepting position and number of
 characters toremove.
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 b. Insert the given small string in the given big string at specified position without
 removingany characters from the big string.
 c. Replace some characters/ words from given big string with the given small string at
@@ -728,6 +755,9 @@ echo "<br>$str<br>";
 $str=substr_replace($st,$wd,$ps,strlen($wd));
 echo "<br>$str<br>";
 ?>
+
+
+
 Slip20: Write a menu driven program to perform the following operations on associative
 arrays:
 a) Split an array into chunks
@@ -771,10 +801,12 @@ print_r($br);
 break;
 }
 ?>
+
+
+
 Slip21: Create an array of 15 high temperatures, approximating the weather for a spring
 month, then find the average high temp, the five warmest high temps Display the result on the
 browser
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 <?php
 $temp_array=range(31,45);
 $tot_temp = 0;
@@ -801,6 +833,8 @@ foreach($res1 as $high_temp)
 echo "<br> $high_temp";
 }
 ?>
+
+
 Slip22: Write a menu driven program to perform the following queue related operations
 a) Insert an element in queue
 b) Delete an element from queue
@@ -841,6 +875,9 @@ echo"Given array is: <br>";
 print_r($stk);
 }
 ?>
+
+
+
 Slip23: Write a menu driven program to perform the following stack related operations:
 a) Insert an element in stack
 b) Delete an element from stack
@@ -863,7 +900,6 @@ $stk=array(1,2,3,4,5);
 $ch=$_GET['ch'];
 if($ch==1)
 {
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 echo "Insert element in stack <br>";
 $n1=$_GET['n1'];
 array_push($stk,$n1); //at end
@@ -881,6 +917,9 @@ echo"Given array is: <br>";
 print_r($stk);
 }
 ?>
+
+
+
 Slip24: Write a PHP program to read two file names from user and append content of first
 file intosecond file.
 HTML FILE
@@ -904,10 +943,12 @@ $fp1=fopen($fname1,"r");
 $fp2=fopen($fname2,"a");
 $size=filesize($fname1);
 $str=fread($fp1,$size);
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 fwrite($fp2,$str,$size);
 echo "Append Successfull";
 ?>
+
+
+
 Slip25: Write a menu driven program to perform various file operations. Accept
 filename from user.
 a) Display type of file.
@@ -948,8 +989,10 @@ case 4:unlink($fp);
 echo "File deleted";
 break;
 }
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 ?>
+
+
+
 Slip 26: Consider the following entities and their relationship.
 Doctor ( doc_no, dname, address ,city ,area)
 Hospital (hosp_no, hname, hcity)
@@ -1016,7 +1059,6 @@ PHP FILE
 <?php
 $fp=fopen("student.dat","r");
 $ar=fscanf($fp,"%s%s%s%s%s%s%s%s",$rl,$nm,$os,$wt,$ds,$py,$jv,$cn);
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 echo "<table
 border=1><tr><th>$rl</th><th>$nm</th><th>$os</th><th>$wt</th><th>$ds</th><t
 h>$py</th><th>$jv</th><th>$cn</th><th>Percentage</tr>";
@@ -1031,6 +1073,8 @@ h><th>$jv</th><th>$cn</th><td>$per</td></tr>";
 }
 echo "</table>";
 ?>
+
+
 Slip29:
 Consider the following entities and their relationships
 Event (eno , title , date )
@@ -1046,7 +1090,6 @@ Enter Event Name:<input type=text name=t1><br>
 </html>
 PHP File
 <?php
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 $con=pg_connect("host=localhost user=postgres password=nrc bname=practicals22");
 //echo $con;
 $en=$_GET['t1'];
@@ -1059,6 +1102,8 @@ echo "Working status updated";
 else
 echo "Status not updated";
 ?>
+
+
 Slip30:
 Consider the following entities and their relationships
 Student (Stud_id,name,class)
@@ -1078,7 +1123,6 @@ PHP File
 <?php
 $con=pg_connect("host=localhost user=postgres password=nrc dbname=slip30");
 $cn=$_GET['t1'];
-MOBILE: 9730381255 | WWW.NRCLASSESPUNE.COM | WWW.BCSBCA.COM
 $rs=pg_query($con,"select * from student,competition,stud_comp where cname='$cn'
 and srank=1 and id=sid and competition.cno=stud_comp.cno");
 while($row=pg_fetch_array($rs))
